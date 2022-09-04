@@ -1,0 +1,1 @@
+i686-elf-gcc -T linker.ld -o bin/mallard86.bin -ffreestanding -O2 -nostdlib bin/boot.o bin/kernel.o bin/serial.o bin/utils.o bin/terminal.o bin/gdt.o -lgcc
